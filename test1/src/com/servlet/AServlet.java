@@ -33,9 +33,9 @@ public class AServlet extends HttpServlet {
 //		request.setAttribute("ps", ps);
 //		request.getRequestDispatcher("cart.jsp").forward(request,response);
 //		return;
-		request.setCharacterEncoding("utf-8");
+		request.setCharacterEncoding("11111");
 		
-		String username=request.getParameter("username");
+		String username=request.getParameter("userName");
 		String password = request.getParameter("password");
 		String Agent = request.getHeader("User-Agent");
 		System.out.println(Agent);
